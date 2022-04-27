@@ -9,8 +9,8 @@ body{
 header {
     background-color: #58585B;
     width: 100%vw;
-    padding: 25px;
-    margin: 0px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .navbar{
@@ -29,6 +29,10 @@ li {
 }
 
 p {
+    color: #ffffff;
+}
+
+.pictext{
     color: #2B5592;
 }
 
@@ -63,5 +67,6 @@ footer{
     color: white;
     font-size: 20px;
     float: right;
-    position: relative;
+    background-color: #6CC04A;
+    padding: 15px;
 }
