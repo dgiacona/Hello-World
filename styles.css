@@ -8,17 +8,17 @@ body{
 
 header {
     background-color: #58585B;
-    width: 100%vw;
-    padding: 20px;
-    margin: 10px;
+    width: 100%;
 }
 
 .navbar{
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
-    float: left;
+#logo {
+    padding-left: 20px;
 }
 
 li {
@@ -55,6 +55,7 @@ p {
 footer{
     background-color: #6CC04A;
     padding: 30px;
+    max-width: 100%;
 }
 
 .footer-text{
@@ -66,7 +67,10 @@ footer{
 #username{
     color: white;
     font-size: 20px;
-    float: right;
     background-color: #6CC04A;
     padding: 15px;
+}
+
+img{
+    max-width: 100%;
 }

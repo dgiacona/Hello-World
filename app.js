@@ -16,4 +16,4 @@ console.log("First response = " + place);
 place = prompt("What else do you like?");
 console.log("Second response = " + place);
 
-document.write("<p id='username'>" + userName + "<p>");
+document.querySelector(".username").innerHTML = "<p id='username'>" + userName + "<p>";
